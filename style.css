@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./erik-mclean-ZRns2R5azu0-unsplash.jpg);
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+.col{
+    width: 1000px;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
